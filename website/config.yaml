@@ -1,6 +1,6 @@
 baseURL: "https://profile.gurusabarish.tech"
 languageCode: "en-us"
-title: "Hugo-profile"
+title: "bomaindragunawan"
 theme: "./.."
 relativeURLs: true
 
@@ -31,86 +31,91 @@ params:
   # home
   disable_home: false
   profile_image: "/images/profile.png"
-  name: "Example name"
-  profession: "Profession"
-  github: "https://github.com"
-  linkedin: "https://linkedin.com"
+  name: "Boma Indra Gunawan"
+  profession: "Application Middleware Engineer"
+  github: "https://github.com/bomaindragunawan"
+  linkedin: "https://www.linkedin.com/in/boma-indra-gunawan-a80554186/"
   twitter: "https://twitter.com/"
-  instagram: "https://instagram.com/"
+  instagram: "https://instagram.com/bomaindragunawan"
   facebook: "https://facebook.com"
 
   # About
   disable_about: false
-  descripe_l1_person: "Hi, I'm Profile, a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-  descripe_l2_person: "This is a example template for about section. You can find my works [here](#projects)"
+  descripe_l1_person: "Hi, I'm Boma Indra Gunawan, a passionate Artificial Intelligence, DevOps and Web Development."
+  descripe_l2_person: "I'm currently working as Application Middleware Engineer at IBM. You can find my works [here](#projects)"
   skills:
-    - name: CSS
+    - name: Python
       percentage: 90
-    - name: Django
+    - name: Math Algorithms
       percentage: 85
-    - name: Hugo
+    - name: Backend
       percentage: 80
-    - name: React JS
-      percentage: 70
+    - name: DevOps
+      percentage: 80
 
   # Experience
   disable_experience: false
   experience:
-    - company: "Google"
+    - company: "Kementrian Keuangan"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
-      role: "Software developer"
-      startdate: Feb 2021
-      enddate: present
+      role: "Network Engineer - Internship"
+      startdate: August 2019
+      enddate: September 2019
       featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
-    - company: "Facebook"
+        - point: Configure network.
+        - point: Created a architure network.
+    - company: "BATS International"
       # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
-      role: "Fullstack developer"
-      startdate: Mar 2020
-      enddate: Dec 2020
+      role: "AI Engineer - Internship"
+      startdate: February 2019
+      enddate: April 2019
       featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
-    - company: "Amazon"
+        - point:  Created a Image Recognition for Tax Report.
+        - point: The tools help for data entry running the job quickly.
+    - company: "IBM"
       # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
-      role: "Fullstack developer"
-      startdate: Feb 2019
-      enddate: Jan 2020
+      role: "Application Engineer"
+      startdate: December 2019
+      enddate: now
       featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
+        - point: Handling system middleware for telco.
+        - point: Analyse and resolve the problem.
 
   # Education
   disable_education: false
   education:
     - degree: "B.tech"
       branch: "Information Technology"
+      university: "Gunadarma university"
+      startedyear: "2015"
+      graduation: "2019"
+    - degree: "Artificial Intelligence"
+      branch: "Digital Talent Scholarship"
       university: "Example university"
-      startedyear: "2013"
-      graduation: "2018"
-    - degree: "Degree"
-      branch: "Branch"
-      university: "Example university"
-      startedyear: "year"
-      graduation: "year"
-    - degree: "Degree"
-      branch: "Branch"
-      university: "Example university"
-      startedyear: "year"
-      graduation: "year"
+      startedyear: "2019"
+      graduation: "2019"
 
   # Projects
   disable_projects: false
   projects:
-    - name: "Example project without details"
+    - name: "QR Payment Application based on Android"
       img: /images/project.jpg
       githublink: "https://github.com/"
       featuredlink: "/"
       description: "Description of project"
-
+    - name: "Credit Score Prediction by Applying Naive Bayes Algorithm in Machine Learning"
+      img: /images/project.jpg
+      githublink: "https://github.com/"
+      featuredlink: "/"
+      description: "Description of project"
+    - name: "Music Recommendation Based of Face Expression Detection"
+      img: /images/project.jpg
+      githublink: "https://github.com/"
+      featuredlink: "/"
+      description: "Description of project"   
+  
   # Achievements
-  disable_achievements: false
+  disable_achievements: True
   achievements:
     - title: Competition winner
       description: We are developed a product which can help others.
@@ -128,11 +133,11 @@ params:
   # Contact
   disable_contact: false
   contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-  email: "example@mail.com"
+  email: "bomaindragunawan@mail.com"
 
   # Footer
   socialiconfooter: true
-  recentposts: true
+  recentposts: false
 
   # Blog
   showdescription: false
