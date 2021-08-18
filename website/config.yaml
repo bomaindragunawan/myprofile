@@ -35,9 +35,7 @@ params:
   profession: "Application Middleware Engineer"
   github: "https://github.com/bomaindragunawan"
   linkedin: "https://www.linkedin.com/in/boma-indra-gunawan-a80554186/"
-  twitter: "https://twitter.com/"
   instagram: "https://instagram.com/bomaindragunawan"
-  facebook: "https://facebook.com"
 
   # About
   disable_about: false
