@@ -72,7 +72,7 @@ params:
         - point: The tools help for data entry running the job quickly.
     - company: "IBM"
       # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
-      role: "Application Engineer"
+      role: "Application Middleware Engineer"
       startdate: December 2019
       enddate: now
       featuredpoints:
@@ -89,7 +89,7 @@ params:
       graduation: "2019"
     - degree: "Artificial Intelligence"
       branch: "Digital Talent Scholarship"
-      university: "Example university"
+      university: "Kementerian Informasi dan Informatika"
       startedyear: "2019"
       graduation: "2019"
 
@@ -100,17 +100,17 @@ params:
       img: /images/project.jpg
       githublink: "https://github.com/"
       featuredlink: "/"
-      description: "Description of project"
+      description: ""
     - name: "Credit Score Prediction by Applying Naive Bayes Algorithm in Machine Learning"
       img: /images/project.jpg
       githublink: "https://github.com/"
       featuredlink: "/"
-      description: "Description of project"
+      description: ""
     - name: "Music Recommendation Based of Face Expression Detection"
       img: /images/project.jpg
       githublink: "https://github.com/"
       featuredlink: "/"
-      description: "Description of project"   
+      description: ""   
   
   # Achievements
   disable_achievements: True
