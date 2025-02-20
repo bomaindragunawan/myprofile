@@ -6,7 +6,7 @@ relativeURLs: true
 
 googleanalytics: UA-167646412-8
 disqusShortname:
-Paginate: 3
+Paginate: 5
 markup:
   goldmark:
     renderer:
@@ -32,24 +32,24 @@ params:
   disable_home: false
   profile_image: "/images/profile.jpg"
   name: "Boma Indra Gunawan"
-  profession: "Application Middleware Engineer"
+  profession: "DevOps Engineer"
   github: "https://github.com/bomaindragunawan"
   linkedin: "https://www.linkedin.com/in/boma-indra-gunawan-a80554186/"
   instagram: "https://instagram.com/bomaindragunawan"
 
   # About
   disable_about: false
-  descripe_l1_person: "Hi, I'm Boma Indra Gunawan, a passionate Artificial Intelligence, DevOps and Web Development."
+  descripe_l1_person: "Hi, I'm Boma Indra Gunawan, a passionate DevOps, Web Development and AI."
   descripe_l2_person: "I'm currently working as Application Middleware Engineer at IBM. You can find my works [here](#projects)"
   skills:
-    - name: Python
+    - name: Golang
       percentage: 90
-    - name: Math Algorithms
-      percentage: 85
-    - name: Backend
-      percentage: 80
+    - name: Laravel
+      percentage: 90
+    - name: Kubernetes
+      percentage: 90
     - name: DevOps
-      percentage: 80
+      percentage: 90
 
   # Experience
   disable_experience: false
@@ -74,15 +74,23 @@ params:
       # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
       role: "Application Middleware Engineer"
       startdate: December 2019
-      enddate: now
+      enddate: March 2022
       featuredpoints:
         - point: Handling system middleware for telco.
         - point: Analyse and resolve the problem.
+    - company: "Badan Siber dan Sandi Negara"
+      # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
+      role: "Fullstack Engineer & DevOps"
+      startdate: March 2022
+      enddate: now
+      featuredpoints:
+        - point: Develop Service Backend.
+        - point: Build Application Architecture with Kubernetes.
 
   # Education
   disable_education: false
   education:
-    - degree: "B.tech"
+    - degree: "Bachelor Degree"
       branch: "Information Technology"
       university: "Gunadarma university"
       startedyear: "2015"
@@ -98,35 +106,40 @@ params:
   projects:
     - name: "QR Payment Application based on Android"
       img: /images/project.jpg
-      githublink: "https://github.com/"
+      githublink: "https://github.com/bomaindragunawan"
       featuredlink: "/"
       description: ""
     - name: "Credit Score Prediction by Applying Naive Bayes Algorithm in Machine Learning"
       img: /images/project.jpg
-      githublink: "https://github.com/"
+      githublink: "https://github.com/bomaindragunawan"
       featuredlink: "/"
       description: ""
     - name: "Music Recommendation Based of Face Expression Detection"
       img: /images/project.jpg
-      githublink: "https://github.com/"
+      githublink: "https://github.com/bomaindragunawan"
       featuredlink: "/"
       description: ""   
+    - name: "Golang Dev"
+      img: /images/project.jpg
+      githublink: "https://github.com/bomaindragunawan"
+      featuredlink: "/"
+      description: ""
   
   # Achievements
-  disable_achievements: True
-  achievements:
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
+  #disable_achievements: True
+  #achievements:
+    #- title: Competition winner
+     # description: We are developed a product which can help others.
+      #img: /images/achiv.jpg
+    #- title: Competition winner
+     # description: We are developed a product which can help others.
+     # img: /images/achiv.jpg
+    #- title: Competition winner
+     # description: We are developed a product which can help others.
+     # img: /images/achiv.jpg
+    #- title: Competition winner
+      #description: We are developed a product which can help others.
+      #img: /images/achiv.jpg
 
   # Contact
   disable_contact: false
